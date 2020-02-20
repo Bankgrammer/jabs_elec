@@ -82,32 +82,9 @@ header {
   width: 80%;
 }
 
-.banner-heading {
-  animation-name: anim;
-  animation-duration: 2s;
-}
 
 .banner-heading span {
   color: #ff4600;
-}
-
-.banner-par {
-  animation-name: anim;
-  animation-duration: 2s;
-  animation-delay: .5s;
-  animation-fill-mode: backwards;
-}
-
-@keyframes anim {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
 }
 
 /* end of banner */
